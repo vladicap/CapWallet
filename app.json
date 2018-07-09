@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "sdkVersion": "23.0.0",
+    "version": "1.0.0",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "buildNumber": "1",
+      "isRemoteJSEnabled":false,
+      "bundleIdentifier": "com.alias.nasdawallet",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Discover local stores nearby that accept Bitcoin",
+        "NSCameraUsageDescription": "Allow NasdaWallet to scan QR codes"
+      }
+    },
+    "android": {
+      "package": "com.alias.nasdawallet"
+    },
+    "name":"Nasda Wallet",
+    "description":"Bitcoin and Nasda wallet app",
+    "slug":"nasdawallet",
+    "githubUrl":"https://github.com/Overtorment/NasdaWallet",
+    "orientation":"portrait",
+    "primaryColor":"#00aced",
+    "icon":"img/icon.png",
+    "notification":{
+      "icon":"https://s3.amazonaws.com/exp-us-standard/placeholder-push-icon.png",
+      "color":"#000000"
+    },
+    "splash":{
+      "backgroundColor":"#191c2e"
+    }
+  }
+}
